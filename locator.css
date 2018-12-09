@@ -1,0 +1,188 @@
+#listify{
+    background-color:#4CB04F;
+    color:white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom:40px;
+}
+
+#locator{
+    background-color:#294adb;
+    color:white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom:82px;
+}
+#header{
+    font-family: Verdana, sans-serif;
+    background-color:#4CB04F;
+    color:white;
+
+
+
+
+
+font-size: 30px;
+height: 63px;
+padding-top: 4px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#Hello{
+    font-family: Verdana, sans-serif;
+    background-color:#294adb;
+    color:white;
+    font-size: 40px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+
+#setting{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    left: 850px;
+    background-color:transparent;
+    border-color:transparent;
+}
+
+#setting img{
+    width: 100%;
+    height: auto;
+}
+
+#map{
+    width: 1200px;
+    position: relative;
+
+    height: 100%;
+    height: 530px;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+#back{
+    background-color: #7c7c7c;
+    position: relative;
+    right: 650px;
+    border-radius: 15px;
+    Width: 150px;
+    height: 50px;
+    bottom: 15px;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+}
+
+#dropdown{
+    background-color: #7c7c7c;
+    position: relative;
+    Left: 650px;
+    font-family:Verdana, sans-serif;
+    font-size: 18px;
+    color:white;
+    border-radius: 15px;
+    height:50px;
+    width 150px;
+    bottom: 15px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+* {
+    margin: 0;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: "Verdana";
+}
+.back {
+    border-radius: 13px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 20px;
+    background: #7c7c7c;
+    padding: 10px 26px 10px 26px;
+    border: none;
+    margin-left: 35px;
+}
+.headDivider {
+    background-color: #4CB04F;
+    color: #ffffff;
+    font-size: 30px;
+    height: 63px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 8px;
+}
+.dropbtn {
+    background-color: #7c7c7c;
+    color: white;
+    padding: 4px;
+    font-size: 20px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    border-radius: 13px;
+    color: #ffffff;
+    font-size: 10px;
+    background: #7c7c7c;
+    padding: 7px 25px 7px 25px;
+    margin-right: 35px;
+    border: none
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background-color: #f1f1f1;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    border-radius: 10px;
+    display: block;
+}
+.subDivider {
+    background-color: #294adb;
+    color: #ffffff;
+    font-size: 30px;
+    height: 43px;
+    padding-top: 3px;
+}
+.subTitle {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 35px;
+    margin-right: 30px;
+    letter-spacing: 4px;
+}

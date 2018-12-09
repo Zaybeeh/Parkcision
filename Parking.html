@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: Verdana, Arial, Helvetica, sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-green w3-large">
+  <a href="#" class="w3-bar-item w3-large w3-button w3-green w3-mobile"></a>
+  <p><h2><b>Parkcision </b></h2></p>
+ 
+</div>
+<!-- Header -->
+
+	<header class="w3-display-container-third w3-content" style="max-width:2000px;">
+
+	  <img class="w3-image" src="picture1.png"  style="min-width:1500px" width="2000" height="1200">
+	  <div class="w3-display-left w3-padding w3-col l5 m8">
+	    <div class="w3-container w3-green">
+	      <h2>Find Parking Near You</h2>
+	    </div>
+	    <div class="w3-container w3-white w3-padding-16">
+	        <div class="w3-row-padding" style="margin:0 -16px;">
+	          <div class="w3- w3-margin-bottom">
+							<label>Where would you like to go?</label>
+							<form id="form" onsubmit="return false;"></form>
+	            	<input id="locationName" class="w3-input w3-border" type="text" placeholder="123 no parking road" name="CheckIn" required>
+						</form>
+						</div>
+	        </div>
+					<form action="index.html">
+					<button class="w3-button w3-dark-grey" onclick="username()" type="submit">
+						<i class="fa fa-search w3-margin-right"></i>Search Nearby</button>
+	      </form> 
+	    </div>
+	  </div>
+	</header>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjrn_taUtnqBtD_urL_M2Sjb-S1rRpv7s&libraries=places"></script>
+	<script src="Autofill.js"></script>
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+  <h5>Find Us On</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+
+  </div>
+ </footer>
+
+</body>
+</html>

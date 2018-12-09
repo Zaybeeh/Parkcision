@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--css link-->
+    <link rel="stylesheet" type="text/css" href="locator.css"/>
+    <!--Javascript link-->
+
+    <script type=text/javascript src="script.js"></script>
+
+    <!--Google Maps API key link-->
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjrn_taUtnqBtD_urL_M2Sjb-S1rRpv7s&callback=myMap"
+  type="text/javascript"></script>
+
+    <!--Geolocation and Places API key link-->
+
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCjrn_taUtnqBtD_urL_M2Sjb-S1rRpv7s&libraries=geometry,places&sensor=true&language=en">
+    </script>
+
+</head>
+
+    <body>
+        <div class="headDivider">
+                <h4> Parkcision </h4>
+                <button type="button" class="back" onclick="window.location.href='Parking.html'">Back</button>
+                
+
+            </div>
+
+            <div class="subDivider">
+                <h3 class="subTitle">Parking lots </h3>
+            </div>
+    <!--Map is created in this div-->
+
+        <div id="map" onload="myMap()"></div>
+    </body>
+</html>
